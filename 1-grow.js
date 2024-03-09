@@ -1,3 +1,8 @@
+// WPU Coding Challenge
+// day 1/ 366
+
+
+
 // function grow(x) {
     
 //     let result = x[0];
@@ -19,6 +24,6 @@
 //     return result;
 // }
 
-const grow = (x) => x.reduce((acc, curr) => acc * curr, 1) 
+const grow = (x) => x.reduce((acc, curr) => acc * curr, 1); 
 
 console.log(grow([1, 2, 3, 4]));
